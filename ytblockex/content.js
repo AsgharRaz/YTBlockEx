@@ -7,7 +7,8 @@ sources = () => [
 
 players = () => [
   '#ytd-player',
-  'yt-playability-error-supported-renderers'
+  'yt-playability-error-supported-renderers',
+  'ytd-enforcement-message-view-model'
 ]
 
 source = () => {
