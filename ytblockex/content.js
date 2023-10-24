@@ -14,7 +14,6 @@ players = () => [
 
 buildUrl = () => {
   const videoId = new URLSearchParams(window.location.search).get("v")
-  console.log("videoId", videoId)
   return `https://www.youtube.com/embed/${videoId}`
 }
 
